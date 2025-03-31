@@ -1,0 +1,296 @@
+{
+    "id": "japan",
+    "title": "Japan Strategy Guide",
+    "category": "Military",
+    "years": {
+        "1936": {
+            "sections": [
+                {
+                    "title": "National Focus Order",
+                    "actions": [
+                        "Purge the Kodoha Faction (February 1936) - Stabilizes political situation and unlocks advisors",
+                        "Strengthen Civilian Government (May 1936) - Improves stability and unlocks additional advisors",
+                        "National Mobilization Law (September 1936) - Prepares Japan for industrial and military expansion",
+                        "Spiritual Mobilization (December 1936) - Adds critical infantry combat bonuses"
+                    ]
+                },
+                {
+                    "title": "Research Priorities",
+                    "actions": [
+                        "Basic Machine Tools (May 1936) - Improves production efficiency cap",
+                        "Construction I (June 1936) - Speeds up factory and infrastructure building",
+                        "Electronic Mechanical Engineering (August 1936) - Provides +3% research speed",
+                        "Infantry Equipment I (April 1936) - Provides standard infantry equipment",
+                        "Support Weapons I (May 1936) - Increases infantry combat bonuses"
+                    ]
+                },
+                {
+                    "title": "Experimental Facilities & Special Projects",
+                    "actions": [
+                        "Begin Research on Experimental Facility Tier 1",
+                        "Allocate resources towards early military R&D projects",
+                        "Monitor facility output and adjust research priorities as needed"
+                    ]
+                },
+                {
+                    "title": "Construction Timeline",
+                    "actions": [
+                        "Civilian Factory in Kanto (15 factories assigned) - Completion late 1936",
+                        "Infrastructure in Manchukuo (15 factories assigned) - Completion late 1936",
+                        "Civilian Factory in Kansai - Begins after Kanto factory, completes early-to-mid 1937"
+                    ]
+                },
+                {
+                    "title": "Trade for Resources",
+                    "actions": [
+                        "Import 8 Aluminum from the USA (for aircraft production)",
+                        "Import 16 Rubber from British Malaya (for motorized and aircraft)",
+                        "Import 12 Oil from the Dutch East Indies (for navy and fuel reserves)"
+                    ]
+                },
+                {
+                    "title": "Military Factory Assignments",
+                    "actions": [
+                        "Infantry Equipment - 8 factories",
+                        "Artillery - 2 factories",
+                        "Support Equipment - 1 factory"
+                    ]
+                },
+                {
+                    "title": "Political Power Usage",
+                    "actions": [
+                        "Silent Workhorse - Prince Fumimaro Konoe (150 PP, March 1936)",
+                        "Captain of Industry (150 PP, mid-1936)",
+                        "Partial Mobilization (150 PP, late 1936)",
+                        "Chief of Airforce - Masakazu Kawabe (150 PP, December 1936)"
+                    ]
+                },
+                {
+                    "title": "Diplomatic Choices",
+                    "actions": [
+                        "None for 1936"
+                    ]
+                },
+                {
+                    "title": "Recruitment and Training",
+                    "actions": [
+                        "Train 10 Infantry Divisions (7 Infantry + 2 Artillery, Engineers) - Assigned to Kanji Ishiwara",
+                        "Train 4 Marine Divisions (5 Infantry, Engineers) - Assigned to Kotohito Kan’in",
+                        "Train 4 Cavalry Divisions - Assigned to Shunroku Hata"
+                    ]
+                },
+                {
+                    "title": "Military Organization",
+                    "subsections": [
+                        {
+                            "title": "Army Organization",
+                            "actions": [
+                                "Field Marshal Hata - Oversees all frontline armies",
+                                "Kanji Ishiwara - Commands 24 Infantry Divisions (Set to Border Defense along Manchukuo-China Border)",
+                                "Shunroku Hata - Commands 6 Cavalry Divisions (Expand to 12 via recruitment, Set to Mobile Reserve Role)",
+                                "Hitoshi Imamura - Commands 10 Garrison Divisions (Defending ports in Kyushu, Kansai, Shikoku, Hokkaido)",
+                                "Kotohito Kan’in - Commands 1 Marine Division (Expands in 1937, Kept in reserve for future amphibious training)"
+                            ]
+                        },
+                        {
+                            "title": "Navy Organization",
+                            "actions": [
+                                {
+                                    "commander": "Admiral Isoroku Yamamoto - Commands Carrier Fleet",
+                                    "assignments": [
+                                        "Patrol South China Sea and Yellow Sea",
+                                        "Escort Transport Ships for Invasions",
+                                        "Engage in Naval Training Exercises (Until September 1936)"
+                                    ]
+                                },
+                                {
+                                    "commander": "Admiral Nobutake Kondō - Commands Battleship Fleet",
+                                    "assignments": [
+                                        "Patrol Western Pacific",
+                                        "Engage in Naval Training Exercises (Until September 1936)"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Airforce Organization",
+                            "actions": [
+                                {
+                                    "commander": "Masakazu Kawabe - Chief of Airforce",
+                                    "assignments": [
+                                        {
+                                            "group": "Fighter Squadrons",
+                                            "size": "150 Fighters",
+                                            "training": "Air Training (Until September 1936, then assigned to Air Superiority in Japan)"
+                                        },
+                                        {
+                                            "group": "Naval Bomber Squadrons",
+                                            "size": "120 Naval Bombers",
+                                            "training": "Air Training (Until September 1936, then assigned to Naval Strike in the Pacific)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Volunteer Deployments",
+                    "actions": [
+                        {
+                            "war": "Spanish Civil War (Mid-1936)",
+                            "side": "Nationalist Spain",
+                            "deployment": [
+                                "Send 3 Cavalry Divisions under Shunroku Hata",
+                                "Objectives: Flank enemy forces around Zaragoza and Burgos",
+                                "Assist Nationalist Spain in encirclements and securing Madrid"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Unit Templates (Tanks, Ships, Planes)",
+                    "subsections": [
+                        {
+                            "title": "Tank Designs",
+                            "actions": [
+                                {
+                                    "type": "Light Tank I",
+                                    "modules": [
+                                        "Main Gun: Light Cannon",
+                                        "Armor: Basic Riveted Armor",
+                                        "Engine: Gasoline Engine",
+                                        "Suspension: Standard Torsion Bar"
+                                    ]
+                                },
+                                {
+                                    "type": "Medium Tank (Refined in 1937)",
+                                    "modules": [
+                                        "Main Gun: Improved Medium Cannon",
+                                        "Armor: Cast Armor",
+                                        "Engine: Diesel Engine",
+                                        "Suspension: Christie Suspension"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Ship Designs",
+                            "actions": [
+                                {
+                                    "type": "Destroyer Hull 1936",
+                                    "modules": [
+                                        "Main Gun: Dual-Purpose Gun",
+                                        "Torpedo Slots: Improved Torpedoes",
+                                        "Engine: Basic Engine",
+                                        "Radar: No Radar (not available in 1936)"
+                                    ]
+                                },
+                                {
+                                    "type": "Carrier Hull 1936",
+                                    "modules": [
+                                        "Deck: Standard Carrier Deck",
+                                        "AA: Dual-Purpose Secondary Batteries",
+                                        "Hangar: Extra Fighter Capacity",
+                                        "Armor: No Armor (prioritizing aircraft capacity)"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Aircraft Designs",
+                            "actions": [
+                                {
+                                    "type": "Fighter I",
+                                    "modules": [
+                                        "Engine: Improved Engine I",
+                                        "Weapons: Standard MGs",
+                                        "Armor: No Armor (to maintain agility)"
+                                    ]
+                                },
+                                {
+                                    "type": "Naval Bomber I",
+                                    "modules": [
+                                        "Engine: Standard Engine",
+                                        "Weapons: Torpedo Mounts",
+                                        "Armor: Light Armor for survivability"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Division Templates",
+                    "subsections": [
+                        {
+                            "title": "Infantry Division (7-2 Template)",
+                            "composition": [
+                                "Column 1: 5 Infantry Battalions",
+                                "Column 2: 2 Infantry Battalions",
+                                "Column 3: 2 Artillery Battalions",
+                                "Support: Engineers"
+                            ]
+                        },
+                        {
+                            "title": "Marine Division (Early)",
+                            "composition": [
+                                "Column 1: 5 Infantry Battalions",
+                                "Column 2: 1 Infantry Battalion",
+                                "Support: Engineers"
+                            ]
+                        }
+                    ]
+                },
+{
+                    "title": "Experience Prioritization",
+                    "subsections": [
+                        {
+                            "title": "Training Assignments",
+                            "actions": [
+                                "Army: Train newly recruited Infantry & Marine Divisions (XP Gain ~0.03/day)",
+                                "Navy: Conduct Naval Exercises for XP (XP Gain ~0.05/day)",
+                                "Airforce: Conduct Air Training for XP (XP Gain ~0.05/day)"
+                            ]
+                        },
+                        {
+                            "title": "Unit Design Experience Usage",
+                            "actions": [
+                                "Light Tank I (10 Army XP)",
+                                "Fighter I (10 Air XP)",
+                                "Naval Bomber I (10 Air XP)",
+                                "Destroyer Hull 1936 (15 Navy XP)",
+                                "Carrier Hull 1936 (20 Navy XP)"
+                            ]
+                        },
+                        {
+                            "title": "Division Template Experience Usage",
+                            "actions": [
+                                "Infantry Division (7-2 Template) Upgrade (10 Army XP)",
+                                "Marine Division (Early) Upgrade (10 Army XP)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Political Power & Experience Verification",
+                    "verification": {
+                        "base_pp_per_day": 2.25,
+                        "total_pp_gained": 821,
+                        "total_pp_spent": 750,
+                        "remaining_pp": 71,
+                        "army_xp_gained": "~40-50 XP",
+                        "navy_xp_gained": "~30-40 XP",
+                        "air_xp_gained": "~30-40 XP",
+                        "required_xp": {
+                            "army": 85,
+                            "navy": 80,
+                            "air": 30
+                        },
+                        "status": "Achievable with training + combat."
+                    }
+                }
+            ]
+        }
+    }
+}
