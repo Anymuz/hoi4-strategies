@@ -66,7 +66,7 @@ This section lists the intended satisfaction criteria for each stage of the inte
 ## Getting Started
 
 1. Clone the repository:
-   `git clone https://github.com/yourusername/hoi4-strategy-guides.git && cd hoi4-strategy-guides`
+   `git clone https://github.com/Anymuz@¬>/hoi4-strategy-guides.git && cd hoi4-strategy-guides`
 
 2. Install dependencies:
    `npm install`
