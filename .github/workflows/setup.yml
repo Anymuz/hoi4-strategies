@@ -22,8 +22,7 @@ on:
         node-version: ${{ matrix.node-version }}
         check-latest: 'true'
         cache: 'npm'    
-      name: install then launch on localhost
-        run: |
-          npm install
-          npm run dev
+      run: |
+        npm install
+        npm run dev
           
