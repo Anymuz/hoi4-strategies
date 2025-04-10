@@ -79,7 +79,7 @@ Visit `http://localhost:3000` in your browser.
 ---
 
 ## Folder Structure
-----
+
 ├── pages/
 │   ├── index.jsx
 │   ├── nation.jsx
@@ -99,7 +99,7 @@ Visit `http://localhost:3000` in your browser.
 │   └── globals.css
 ├── tailwind.config.js
 └── package.json
----
+
 
 ## License
 
