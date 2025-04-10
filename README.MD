@@ -25,12 +25,13 @@ NOTE: This project is still in the very early indev stage, much of the intended 
 
 ### Version 1.0
 - Dynamic route parsing: /nation?name=japan&year=1936
-- Interactive tabbed UI for Army, Navy, Airforce, Template [x]
+- Interactive tabbed UI for Army, Navy, Airforce, Template *
 - JSON strategy loading via internal API routes (`/api`)
 - Styled with Tailwind CSS
-- Fully mobile-responsive layout [x]
+- Fully mobile-responsive layout *
 
-Bugged/Work in progress *
+*Bugged/Work in progress
+
 ---
 
 ## Development Plan
