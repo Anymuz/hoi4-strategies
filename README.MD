@@ -25,46 +25,51 @@ NOTE: This project is still in the very early indev stage, much of the intended 
 
 ### Version 1.0
 - Dynamic route parsing: /nation?name=japan&year=1936
-- Interactive tabbed UI for Army, Navy, Airforce, Template *
+- Interactive tabbed UI for Army, Navy, Airforce, Template [x]
 - JSON strategy loading via internal API routes (`/api`)
 - Styled with Tailwind CSS
-- Fully mobile-responsive layout *
+- Fully mobile-responsive layout [x]
 
-* Bugged/Work in progress
+Bugged/Work in progress *
 ---
 
 ## Development Plan
 This section lists the intended satisfaction criteria for each stage of the intended development cycles and may be expanded upon further ddown the line.
 
 ### Key
-[ ] - Incomplete [/] - Work in Progress [x] - Implemented
+Unchecked boxes are still being worked on or need to be worked on before they satisfy the requirement.
+- [ ] Incomplete/In Progress
+- [x] Implemented
 
 ## Version 1.0
+A basic interface for navigating the data.
 - [x] Full JSON parsing for nested structured data
 - [x] Nation/year page rendering
-- [/] Section filtering with tabbed interface
+- [ ] Section filtering with tabbed interface
 - [ ] Support for future data schema upgrades
 
 ## Version 2.0
+Increased dynamic functionality and improvements on modular scalability.
 - [ ] Componentized structure for reusability
 - [ ] Full rendering for all data types (edge cases included)
 - [ ] Add dynamic search / dropdown nation selector
 
 ## Version 3.0
+Future improvements that may be required.
 - [ ] switch to database or hybrid JSON/DB architecture
 - [ ] Improved mobile formatting and print layout
 
 ---
 
 ## Prerequisites
-
+The following is required in your environment to set this up.
 - Node.js v18+ — https://nodejs.org/en
 - npm v9+ (comes with Node.js)
 
 ---
 
 ## Getting Started
-
+Follow these steps to clone the repo for your own usage and contributions.
 1. Clone the repository:
    `git clone https://github.com/Anymuz/hoi4-strategy-guides.git && cd hoi4-strategy-guides`
 
@@ -79,35 +84,57 @@ Visit `http://localhost:3000` in your browser.
 ---
 
 ## Folder Structure
+<details>
+<summary><strong>pages/</strong></summary>
 
-├── pages/
-│   ├── index.jsx
-│   ├── nation.jsx
-│   └── api/
-│       ├── nations.js
-│       └── japan.js
-├── components/
-│   ├── NavBar.jsx
-│   ├── HomePage.jsx
-│   ├── NationPage.jsx
-│   ├── YearSwitcher.jsx
-│   ├── StrategyTabs.jsx
-│   └── SectionBlock.jsx
-├── public/
-│   └── (static assets)
-├── styles/
-│   └── globals.css
+```text
+├── index.jsx
+├── nation.jsx
+└── api/
+    ├── nations.js
+    └── japan.js
+```
+
+</details>
+
+<details>
+<summary><strong>components/</strong></summary>
+
+```text
+├── NavBar.jsx
+├── HomePage.jsx
+├── NationPage.jsx
+├── YearSwitcher.jsx
+├── StrategyTabs.jsx
+└── SectionBlock.jsx
+```
+
+</details>
+
+<details>
+<summary><strong>public/</strong></summary>
+
+```text
+└── (static assets)
+```
+
+</details>
+
+<details>
+<summary><strong>styles/</strong></summary>
+
+```text
+└── globals.css
+```
+
+</details>
+
+<details>
+<summary><strong>/</strong></summary>
+
+```text
 ├── tailwind.config.js
 └── package.json
+```
 
-
-## License
-
-This project is licensed under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</details>
