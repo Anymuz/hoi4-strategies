@@ -6,21 +6,24 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-jobs:
-  build:
-    runs-on: ubuntu-latest
+  create:    
+    jobs:
+      build:
+      runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+        
     steps:
-      - uses: actions/checkout@v4.3.0
-      - name: Use Node.js ${{ matrix.node-version }}
-        with:
-          node-version: ${{ matrix.node-version }}
-          check-latest: 'true'
-          cache: 'npm'
-      - run: 'npm ci'
-      
-      #run: 'npm run dev'
-
+      uses: actions/checkout@v4.3.0
+      name: Use Node.js ${{ matrix.node-version }}
+      with:
+        node-version: ${{ matrix.node-version }}
+        check-latest: 'true'
+        cache: 'npm'    
+      name: install then launch on localhost
+        run: |
+          npm install
+          npm run dev
           
