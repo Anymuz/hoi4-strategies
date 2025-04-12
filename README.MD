@@ -25,66 +25,60 @@ It is important to note that this is a personal pastime project and is still in 
 
 One of the ideas in the deployment plan is to eventually make the app less dependent on a predefined JSON structure in order to improve flexibility and make it adaptable to non-gaming contexts. Where needed, it can serve as a base for future relational database integrations (e.g., SQL backends). For its initial purpose, JSON is a suitable format, but an SQL model may be created later.
 
-## Features
+## Current Features
+The features that are either currently implemented from previous interations or are implemented and tested from the current iteration are listed here. There are plans for a seperate changelog document to prevent this list becoming too large.
+*NOTE: This project is still in the very early indev stage, much of the intended features contain bugs, unpredictable behaviour or are yet to be fully implemented. Because of this the first iteration is yet to be complete making this section largely redundent as of right now.* 
 
-NOTE: This project is still in the very early indev stage, much of the intended features contain bugs, unpredictable behaviour or are yet to be fully implemented. 
-
-### Version 1.0
+### Version InDev 0.1
 - Dynamic route parsing: /nation?name=japan&year=1936
-- Interactive tabbed UI for Army, Navy, Airforce, Template *
+- Interactive tabbed UI for Army, Navy, Airforce, Templates 
 - JSON strategy loading via internal API routes (`/api`)
 - Styled with Tailwind CSS
-- Fully mobile-responsive layout *
 
-*Bugged/Work in progress
+## Development Plann
+This section lists the current vision for the development of this application including planned changes or improvements, it is not exhaustive and may change as the project progresses, the full roadmap and interation plans an also be found in the linked project. Some of these planned features are ambitious and this is a hobby project, therefor nothing listed here is guarenteed unless significant contributions are made or additional time to work on it becomes available.
 
-
-## Development Plan
-This section lists the intended satisfaction criteria for each stage of the intended development cycles and may be expanded upon further down the line.
-
-Unchecked boxes are still being worked on or need to be worked on before they satisfy the requirement.
+### Key
+Unchecked boxes can mean either incomplete, not started, or in testing, more distinction and further breakdown of objectives are included in the project liked to this repo.
 - [ ] Incomplete/In Progress
 - [x] Implemented
 
-### Version 1.0
+### Current Development Iteration
+#### Version 1.0 
 A basic interface for navigating the data.
-- [x] Full JSON parsing for nested structured data
 - [x] Nation/year page rendering
+- [ ] Full JSON parsing for nested structured data
 - [ ] Section filtering with tabbed interface
-- [ ] Support for future data schema upgrades
-
-### Version 2.0
-Increased dynamic functionality and improvements on modular scalability.
 - [ ] Componentized structure for reusability
-- [ ] Full rendering for all data types (edge cases included)
-- [ ] Add dynamic search / dropdown nation selector
+- [ ] Fully mobile-responsive layout
 
-### Version 3.0
-Future improvements that may be required.
-- [ ] switch to database or hybrid JSON/DB architecture
-- [ ] Improved mobile formatting and print layout
+### Vision for Future Interations
+#### Version 2.0
+Increased dynamic functionality and improvements on modular scalability.
+- Increased code modularity to facilitate scalability
+- Add dynamic search / dropdown nation selector
+- Improved mobile formatting and print layout
+- Support for future data schema upgrades
 
+#### Version 3.0
+More Dynamic Content via Diversfying 
+- Data schema upgrades
+- Alternative guides for same nation but via different historical routes
+- Additional Types of non-specific to nation Guides (i.e battle plans)
+- Admin Control panel for on-site JSON uploads 
 
-## Setting Up
+#### Version 4.0
+Advanced improvements
+- Flexibily for rendering for alternative sections that may be unique per nation
+- Transition to database (SQL) or hybrid JSON/DB architecture
+- Implement user login comments for questions and community advice or suggest feedback
+- Include guides for popular game modifications
 
-### Prerequisites
-The following is required in your environment to set this up.
-- Node.js v18+ — https://nodejs.org/en
-- npm v9+ (comes with Node.js)
-
-### Installation
-Follow these steps to clone the repo for your own usage and contributions.
-1. Clone the repository:
-   `git clone https://github.com/Anymuz/hoi4-strategy-guides.git && cd hoi4-strategy-guides`
-
-2. Install dependencies:
-   `npm install`
-
-3. Start the development server:
-   `npm run dev`
-
-Visit `http://localhost:3000` in your browser.
-
+#### Version 5.0
+Project Endgame and Final Version
+- Integrate OpenAI API to allow admins to generate strategies using the web application itself
+- Users can use the AI API to submit custom guides for approval
+- Expand to cover other games
 
 ## Folder Structure 
 **Note:** Some of the files in the /components directory are still being built and tested.
@@ -97,8 +91,6 @@ When cloned, the repository should resemble the current directory layout (as of 
 
 ```
 ├── NavBar.jsx
-├── HomePage.jsx
-├── NationPage.jsx
 ├── YearSwitcher.jsx
 ├── StrategyTabs.jsx
 └── SectionBlock.jsx
@@ -173,3 +165,10 @@ The root directory contains the required configuration files including this READ
 The JSON-formatted strategies were created as a fun experiment to see how AI (namely LLMs like ChatGPT) can perform in writing war strategies based on online historical information. However, as I was giving it feedback based on the game, it quickly lost its historical depiction and became more focused on winning the game based on in-game mechanics. These plans may still require player intervention in actual gameplay. Community-contributed strategies — whether AI-generated or written by human players — are welcome.
 
 This project was inspired by the desire to easily access strategy data in an organized format while playing — often from a mobile device — and gradually evolved into a project to develop a polished frontend project using React and Tailwind CSS.
+
+## Get involved
+Users are welcome to contribute or use as a template for their own projects, however anyone wishing to make comitted contributions and colaborate is welcome to do so by contacting me. 
+(Discord Server and reach-out socials coming Soon)
+
+## License
+This project uses the MIT License, please see LICENSE.MD
