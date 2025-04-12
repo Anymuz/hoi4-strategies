@@ -8,15 +8,16 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Development Plan](#development-plan)
 - [Setting Up](#setting-up)
+- [Development Plan](#development-plan)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Folder Structure](#folder-structure)
   - [Directory Layout](#directory-layout)
   - [Directory Description](#directory-description)
 - [Vision Statement](#vision-statement)
-
+- [Colaboration and Involvement](#colaboration-and-involvement)
+- [License and Credits](#license-and-credits)
 
 ## Introduction
 This is a React + Next.js single-page web application created initially as a dynamic strategy guide for the game **Hearts of Iron IV** by Paradox Interactive. By taking advantage of the modularity of JavaScript, it is scalable and adaptable for other purposes. It loads structured JSON data per nation available to the player and displays year-by-year action plans in a clean and aesthetic web interface.
@@ -29,11 +30,27 @@ One of the ideas in the deployment plan is to eventually make the app less depen
 The features that are either currently implemented from previous interations or are implemented and tested from the current iteration are listed here. There are plans for a seperate changelog document to prevent this list becoming too large.
 *NOTE: This project is still in the very early indev stage, much of the intended features contain bugs, unpredictable behaviour or are yet to be fully implemented. Because of this the first iteration is yet to be complete making this section largely redundent as of right now.* 
 
-### Version InDev 0.1
+### Version InDev.0.3
 - Dynamic route parsing: /nation?name=japan&year=1936
 - Interactive tabbed UI for Army, Navy, Airforce, Templates 
 - JSON strategy loading via internal API routes (`/api`)
 - Styled with Tailwind CSS
+
+## Setting Up
+### Prerequisites
+The following is required in your environment to set this up.
+- Node.js v18+ — https://nodejs.org/en
+- npm v9+ (comes with Node.js)
+
+### Installation
+Follow these steps to clone the repo for your own usage and contributions.
+1. Clone the repository:
+   `git clone https://github.com/Anymuz/hoi4-strategy-guides.git && cd hoi4-strategy-guides`
+2. Install dependencies:
+   `npm install`
+3. Start the development server:
+   `npm run dev`
+Visit `http://localhost:3000` in your browser.
 
 ## Development Plann
 This section lists the current vision for the development of this application including planned changes or improvements, it is not exhaustive and may change as the project progresses, the full roadmap and interation plans an also be found in the linked project. Some of these planned features are ambitious and this is a hobby project, therefor nothing listed here is guarenteed unless significant contributions are made or additional time to work on it becomes available.
@@ -166,9 +183,11 @@ The JSON-formatted strategies were created as a fun experiment to see how AI (na
 
 This project was inspired by the desire to easily access strategy data in an organized format while playing — often from a mobile device — and gradually evolved into a project to develop a polished frontend project using React and Tailwind CSS.
 
-## Get involved
+## Colaboration and Involvement
 Users are welcome to contribute or use as a template for their own projects, however anyone wishing to make comitted contributions and colaborate is welcome to do so by contacting me. 
 (Discord Server and reach-out socials coming Soon)
 
-## License
-This project uses the MIT License, please see LICENSE.MD
+## License and Credits
+**Anymuz** - *Inital Idea, Main Developer and Project *
+
+*This project uses the MIT License, please see LICENSE.MD*
