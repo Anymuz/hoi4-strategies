@@ -9,9 +9,11 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Setting Up](#setting-up)
-- [Development Plan](#development-plan)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Development Plan](#development-plan)
+  - [Current Iteration](#current-iteration)
+  - [Future Interations](#future-interations)
 - [Folder Structure](#folder-structure)
   - [Directory Layout](#directory-layout)
   - [Directory Description](#directory-description)
@@ -55,12 +57,11 @@ Visit `http://localhost:3000` in your browser.
 ## Development Plann
 This section lists the current vision for the development of this application including planned changes or improvements, it is not exhaustive and may change as the project progresses, the full roadmap and interation plans an also be found in the linked project. Some of these planned features are ambitious and this is a hobby project, therefor nothing listed here is guarenteed unless significant contributions are made or additional time to work on it becomes available.
 
-### Key
 Unchecked boxes can mean either incomplete, not started, or in testing, more distinction and further breakdown of objectives are included in the project liked to this repo.
 - [ ] Incomplete/In Progress
 - [x] Implemented
 
-### Current Development Iteration
+### Current Iteration
 #### Version 1.0 
 A basic interface for navigating the data.
 - [x] Nation/year page rendering
@@ -69,7 +70,7 @@ A basic interface for navigating the data.
 - [ ] Componentized structure for reusability
 - [ ] Fully mobile-responsive layout
 
-### Vision for Future Interations
+### Future Interations
 #### Version 2.0
 Increased dynamic functionality and improvements on modular scalability.
 - Increased code modularity to facilitate scalability
